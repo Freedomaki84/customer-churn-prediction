@@ -1,0 +1,14 @@
+Create a virtual environment:
+python -m venv venv
+
+Activate the virtual environment: 
+venv\Scripts\Activate.ps1
+
+Upgrade PIP:
+python -m pip install --upgrade pip
+
+Install the project libraries:
+pip install pandas scikit-learn matplotlib seaborn jupyter
+
+Open jupyter notebook:
+In the terminal write jupyter notebook
